@@ -1,0 +1,135 @@
+@import '../../config/theme.less';
+
+.userHeader {
+    background: @main-color;
+
+    .avatarTop {
+        background: @main-color;
+
+        .title {
+            background: #434947;
+        }
+
+        .nickname {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .money {
+            color: #fff;
+            font-size: 34px;
+            margin-top: 42px;
+        }
+    }
+}
+
+.editData {
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    right: -130px;
+    position: absolute;
+    background: ~'url(./edit.png)';
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 22px 24px;
+}
+
+.center {
+    background: #fff;
+    margin-bottom: 18px;
+}
+
+.applyWithdraw {
+    background: ~'url(./apply-withdraw.png)';
+    background-size: 38px 38px;
+}
+
+.incomeDetail {
+    background: ~'url(./income-detail.png)';
+    background-size: 40px 36px;
+}
+
+.centerLink {
+    color: #333;
+    font-size: 30px;
+    padding-top: 82px;
+    text-align: center;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center top 28px;
+    
+}
+
+.grid {
+    :global {
+        .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content.column-num-3 .am-grid-text {
+            font-size: 30px;
+        }
+        .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-text {
+            color: #333;
+            font-size: 30px;
+        }
+    }
+}
+
+
+
+.container {
+    min-height: 100%;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.list {
+    margin-top: 66px;
+    :global {
+        .am-list-item {
+            margin-bottom: 36px;
+        }
+
+        .am-list-item .am-list-line .am-list-extra {
+            color: #333;
+            flex-basis: 50%;
+        }
+    }
+}
+
+.exitBtn {
+    left: 0;
+    width: 100%;
+    bottom: 48px;
+    position: fixed;
+    color: #ff766c;
+    text-align: center;
+}
+
+:global {
+    .am-modal-button-group-h .am-modal-button:first-child {
+        color: #666;
+    }
+
+    .am-modal-button-group-h .am-modal-button {
+        font-size: 30px;
+    }
+
+    .am-modal-title {
+        color: #333;
+        font-size: 34px;
+    }
+}
+
+.nicknameContainer {
+    padding-top: 100px;
+}
+
+
+.changeNickname {
+    padding: 60px;
+}
+
+.nicknameBtn {
+    margin-top: 94px;
+}

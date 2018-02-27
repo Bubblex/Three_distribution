@@ -1,0 +1,32 @@
+@import './config/theme';
+
+html,
+body,
+:global(#root) {
+    height: 100%;
+}
+
+:global(#root) > div {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: @font-family-base;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: @color-link;
+}

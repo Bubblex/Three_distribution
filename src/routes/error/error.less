@@ -1,0 +1,40 @@
+@import '../../config/theme.less';
+
+.error {
+    min-height: 100%;
+    text-align: center;
+    padding-top: 352px;
+    background: #fff;
+    background-image: ~'url(./404.png)';
+    background-position: center top 150px;
+    background-repeat: no-repeat;
+    background-size: 236px 100px;
+
+    p {
+        color: #333;
+        &:first-child {
+            font-size: 40px;
+            margin-bottom: 18px;
+        }
+        &:last-child {
+            font-size: 30px;
+        }
+    }
+}
+
+
+.forbidden {
+    min-height: 100%;
+    padding-top: 546px;
+    background: #fff;
+    background-image: ~'url(./forbidden.png)';
+    background-position: center top 180px;
+    background-size: 489px 278px;
+    background-repeat: no-repeat;
+
+    .serviceBtn {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
